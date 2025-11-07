@@ -1,0 +1,12 @@
+What is Generative AI? 
+AI that generates new content. 
+
+LLM - large Language Models - Large Data trained on Neural Networks.
+Text Generation - OpenAI, Anthropic, Liama, Gemini  
+Attention is All You Need.(Transformer Architecture)
+
+GPT and Reasoning Models
+
+Tokens - Smallest unit of text the model processes, Like words or parts of words. 
+Prompt - A prompt is simply the text you send to a large-language model.
+(Instructions, Input Data, Context, Output Window)

@@ -4,7 +4,7 @@ import Groq from "groq-sdk/index.mjs";
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
-// Your tool function
+
 function getTotalExpenses({ from, to }) {
   console.log(`Calling getTotalExpenses Tool for ${from} → ${to}`);
   return "10000";

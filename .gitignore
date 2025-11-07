@@ -1,2 +1,2 @@
-.env 
-node_modules
+agentjs\server\node_modules
+agentjs\server\.env

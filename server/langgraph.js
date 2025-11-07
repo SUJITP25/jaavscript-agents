@@ -6,9 +6,6 @@ import { ToolNode } from "@langchain/langgraph/prebuilt";
 import { DynamicStructuredTool } from "@langchain/core/tools";
 import { z } from "zod";
 import { tavily } from "@tavily/core";
-
-
-
 import readline from "readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 
@@ -78,9 +75,10 @@ async function main() {
     const rl = readline.createInterface({ input, output });
 
     console.log("🤖 Groq Chatbot (type 'exit' to quit)\n");
-
     while (true) {
+        
         const userInput = await rl.question("You: ");
+        
         if (userInput.toLowerCase() === "exit") break;
 
         const finalState = await app.invoke({
